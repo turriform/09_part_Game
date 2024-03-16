@@ -1,0 +1,26 @@
+{
+    "PLAY": [
+
+        { "type": "PLAY_FORWARD", "state": "START", "inputDevice": "KEY", "eventType": "KEY_DOWN", "key": "W" },
+        { "type": "PLAY_FORWARD", "state": "END", "inputDevice": "KEY", "eventType": "KEY_UP", "key": "W" },
+        { "type": "PLAY_LEFT", "state": "START", "inputDevice": "KEY", "eventType": "KEY_DOWN", "key": "S" },
+        { "type": "PLAY_LEFT", "state": "END", "inputDevice": "KEY", "eventType": "KEY_UP", "key": "S" },
+        { "type": "PLAY_RIGHT", "state": "START", "inputDevice": "MOUSE", "eventType": "MOUSE_DOWN", "key": "MOUSE_LEFT" },
+        { "type": "PLAY_RIGHT", "state": "END", "inputDevice": "MOUSE", "eventType": "MOUSE_UP", "key": "MOUSE_LEFT" },
+        { "type": "PLAY_BACKWARDS", "state": "START", "inputDevice": "KEY", "eventType": "KEY_DOWN", "key": "A" },
+        { "type": "PLAY_BACKWARDS", "state": "END", "inputDevice": "KEY", "eventType": "KEY_UP", "key": "A" },
+        { "type": "PLAY_PAUSE", "state": "START", "inputDevice": "KEY", "eventType": "KEY_DOWN", "key": "P" },
+        { "type": "PLAY_PAUSE", "state": "END", "inputDevice": "KEY", "eventType": "KEY_UP", "key": "P" },
+        { "type": "PLAY_MENU", "state": "START" , "inputDevice": "KEY", "eventType": "KEY_UP", "key": "Q" },
+        { "type": "PLAY_EXIT", "state": "START" , "inputDevice": "KEY", "eventType": "KEY_UP", "key": "ESC" }
+
+
+    ],
+    "MENU": [
+        { "type": "MENU_EXIT", "state": "START" , "inputDevice": "KEY", "eventType": "KEY_UP", "key": "Q" },
+
+        { "type": "MENU_PLAY", "state": "START" , "inputDevice": "KEY", "eventType": "KEY_UP", "key": "W" },
+        { "type": "MENU_START", "state": "START" , "inputDevice": "KEY", "eventType": "KEY_UP", "key": "S" },
+        { "type": "MENU_RESUME", "state": "START" ,"inputDevice": "KEY", "eventType": "KEY_UP", "key": "D"  }
+    ]
+}

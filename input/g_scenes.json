@@ -1,0 +1,10 @@
+{
+    "Scenes": {
+        "SceneMenu": {
+            "type": "MENU"
+        },
+        "ScenePlay": {
+            "type": "PLAY"
+
+        } }
+}

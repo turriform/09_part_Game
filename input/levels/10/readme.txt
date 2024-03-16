@@ -1,0 +1,20 @@
+Entity structure
+
+1   type   
+2   posX   
+3   posY   
+4   dimX   
+5   dimY   
+6   speedX  
+7   speedY  
+8   accelX  
+9   accelY  
+10  bboxX   
+11  bboxY  
+12  bRad  
+13  density    
+14  volC    
+15  r   
+16  g   
+17  b   
+18  a

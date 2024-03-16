@@ -1,0 +1,21 @@
+{
+    "Actions": [
+        { "type": "DEFAULT", "state": "DEFAULT" },
+        { "type": "MENU_START", "state": "START" },
+        { "type": "MENU_RESUME", "state": "START" },
+        { "type": "MENU_PLAY", "state": "START" },
+        { "type": "MENU_EXIT", "state": "START" },
+
+        { "type": "PLAY_FORWARD", "state": "START" },
+        { "type": "PLAY_FORWARD", "state": "END" },
+        { "type": "PLAY_LEFT", "state": "START" },
+        { "type": "PLAY_LEFT", "state": "END" },
+        { "type": "PLAY_RIGHT", "state": "START" },
+        { "type": "PLAY_RIGHT", "state": "END" },
+        { "type": "PLAY_BACKWARDS", "state": "START"},
+        { "type": "PLAY_BACKWARDS", "state": "END" },
+        { "type": "PLAY_MENU", "state": "START" },
+        { "type": "PLAY_EXIT", "state": "START" }
+   
+    ]
+}

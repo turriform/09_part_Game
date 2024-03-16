@@ -1,0 +1,96 @@
+[
+    {
+        "type": "SHAPE",
+        "Shape": {
+            "exists": true
+        },
+        "Transform": {
+            "exists": true, "pos": [ 0, 0, 0 ], "velocity": [ 1, 5, 0 ], "accel": [ 0, 0, 0 ]
+        },
+        "Initial": {
+            "exists": true, "pos": [ 100, 100, 0 ], "dim": [ 150, 30, 0 ]
+        },
+
+        "ShapeColor": { "rgba": [ 100, 60, 90, 255 ] },
+        "Label": { "font": "F_G_MAIN", "text": "Start Game", "pos": [ 0, 0 ], "locX": "DEFAULT", "locY": "BOTTOM" }
+
+    },
+    {
+        "type": "SHAPE",
+        "Shape": {
+            "exists": true
+        },
+        "Initial": {
+            "exists": true, "pos": [ 100, 150, 0 ], "dim": [ 150, 30, 0 ]
+        },
+        "Transform": {
+            "exists": true, "pos": [ 0, 0, 0 ], "velocity": [ 1, 5, 0 ], "accel": [ 0, 0, 0 ]
+        },
+        "ShapeColor": { "rgba": [ 100, 60, 90, 255 ] },
+        "Label": { "font": "F_G_MAIN", "text": "Level 1", "pos": [ 0, 0 ], "locX": "DEFAULT", "locY": "BOTTOM" }
+
+    },
+    {
+        "type": "SHAPE",
+        "Shape": {
+            "exists": true
+        },
+        "Initial": {
+            "exists": true, "pos": [ 100, 200, 0 ], "dim": [ 150, 30, 0 ]
+        },
+        "Transform": {
+            "exists": true, "pos": [ 0, 0, 0 ], "velocity": [ 0, 0, 0 ], "accel": [ -2, -1, 0 ]
+        },
+        "ShapeColor": { "rgba": [ 100, 60, 90, 255 ] },
+        "Label": { "font": "F_G_MAIN", "text": "Level 2", "pos": [ 0, 0 ], "locX": "DEFAULT", "locY": "BOTTOM" }
+
+    },
+
+    {
+        "type": "SHAPE",
+        "Shape": {
+            "exists": true
+        },
+        "Initial": {
+            "exists": true, "pos": [ 100, 250, 0 ], "dim": [ 150, 30, 0 ]
+        },
+        "Transform": {
+            "exists": true, "pos": [ 0, 0, 0 ], "velocity": [ 0, 0, 0 ], "accel": [ -2, -1, 0 ]
+        },
+        "ShapeColor": { "rgba": [ 100, 60, 90, 255 ] },
+        "Label": { "font": "F_G_MAIN", "text": "Level 3", "pos": [ 0, 0 ], "locX": "DEFAULT", "locY": "BOTTOM" }
+
+    }
+    , {
+        "type": "SHAPE",
+        "Shape": {
+            "exists": true
+        },
+        "Initial": {
+            "exists": true, "pos": [ 100, 300, 0 ], "dim": [ 150, 30, 0 ]
+        },
+        "Transform": {
+            "exists": true, "pos": [ 0, 0, 0 ], "velocity": [ 0, 0, 0 ], "accel": [ -2, -1, 0 ]
+        },
+        "ShapeColor": { "rgba": [ 100, 60, 90, 255 ] }
+
+    }
+    , {
+        "type": "SHAPE",
+        "Shape": {
+            "exists": true
+        },
+        "Initial": {
+            "exists": true, "pos": [ 100, 350, 0 ], "dim": [ 150, 30, 0 ]
+        },
+        "Transform": {
+            "exists": true, "pos": [ 0, 0, 0 ], "velocity": [ 0, 0, 0 ], "accel": [ -2, -1, 0 ]
+        },
+        "ShapeColor": { "rgba": [ 100, 60, 90, 255 ] },
+
+        "Label": { "font": "F_G_MAIN", "text": "Quit", "pos": [ 0, 0 ], "locX": "DEFAULT", "locY": "BOTTOM" },
+        "MouseDownEvent": { "actionAttached": "MENU_EXIT" }
+
+    }
+
+]

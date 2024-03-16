@@ -1,0 +1,25 @@
+[
+
+    {
+        "type": "SHAPE",
+        "Shape": {
+            "exists": true
+        },
+        "Initial": {
+            "exists": true, "pos": [ 100, 150, 0 ], "dim": [ 100, 30, 0 ]
+        },
+        "Transform": {
+            "exists": true, "pos": [ 0, 0, 0 ], "velocity": [ 1, 5, 0 ], "accel": [ 0, 0, 0 ]
+        },
+        "ShapeColor": { "rgba": [ 255, 0, 255, 255 ] },
+        "Label": { "font": "F_G_MAIN", "text": "one", "pos": [ 0, 0 ], "locX": "DEFAULT", "locY": "DEFAULT" }
+
+    },
+    {   "type": "SHAPE",
+        "Shape": { "exists": true },
+        "Initial": { "exists": true, "pos": [ 100, 200, 0 ], "dim": [ 100, 30, 0 ]},
+        "Transform": { "exists": true, "pos": [ 0, 0, 0 ], "velocity": [ 0, 0, 0 ], "accel": [ -2, -1, 0 ]},
+        "ShapeColor": { "rgba": [ 255, 255, 0, 255 ] },
+        "Label": { "font": "F_G_MAIN", "text": "three", "pos": [ 0, 0 ], "locX": "DEFAULT", "locY": "DEFAULT" }}
+
+]

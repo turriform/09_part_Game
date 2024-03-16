@@ -1,0 +1,10 @@
+PLAY_FORWARD    START       KEY     KEY_DOWN          W
+PLAY_FORWARD    END         KEY     KEY_UP            W
+PLAY_BACKWARDS  START       KEY     KEY_DOWN          S
+PLAY_BACKWARDS  END         KEY     KEY_UP            S
+PLAY_LEFT       START       KEY     KEY_DOWN          A
+PLAY_LEFT       END         KEY     KEY_UP            A
+PLAY_RIGHT      START       MOUSE   MOUSE_DOWN        MOUSE_LEFT
+PLAY_RIGHT      END         MOUSE   MOUSE_UP          MOUSE_LEFT
+PLAY_PAUSE      START       KEY     KEY_DOWN          P
+PLAY_PAUSE      END         KEY     KEY_UP            P

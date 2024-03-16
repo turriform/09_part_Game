@@ -1,0 +1,10 @@
+{
+    "Assets": [
+        { "type": "FONT", "name": "F_G_SUB", "description": "AovelSansRounded", "path": "assets/global/fonts/AovelSansRounded-rdDL.ttf" },
+        { "type": "FONT", "name": "F_G_MAIN", "description": "JosefinSans", "path": "assets/global/fonts/JosefinSans-Regular.ttf" }
+    ]
+
+
+}
+
+
